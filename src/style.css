@@ -1,0 +1,58 @@
+.holds-nav{
+    width: 100%;
+    background-image: url(../images/background\ image.jpeg);
+    height: 300em;
+    background-size: contain;
+    border: 20px 10px 20px 10px solid beige;
+    box-shadow: 5px 5px saddlebrown;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-size: medium;
+    font-style:normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: crosshair;
+}
+.info-on-about-us{
+    font-size: medium;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border: 5px 5px 5px 5px;
+}
+.shop-with-us{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 10px 2px;
+    background-color: chocolate;
+}
+.display{
+    width: 30%;
+    height: 50%;
+}
+.p{
+    justify-content: space-evenly;
+    text-align: justify;
+    text-shadow: 50px;
+    text-transform: capitalize;
+}
+.flex-1{
+    width: 30%;
+    height: 500px;
+    border-radius:25px;
+}
+.h1{
+    text-shadow: 70em;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2{
+    text-align:justify;
+    font-size:large;
+    text-transform: capitalize;
+}
