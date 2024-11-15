@@ -1,10 +1,10 @@
 .holds-nav{
     width: 100%;
     background-image: url(../images/background\ image.jpeg);
-    height: 300em;
-    background-size: contain;
-    border: 20px 10px 20px 10px solid beige;
-    box-shadow: 5px 5px saddlebrown;
+    height: 300px;
+    background-size: cover;
+    border: 2px solid beige;
+    box-shadow:  0 2px 4px saddlebrown;
 }
 .navigation{
     display: flex;
@@ -17,15 +17,18 @@
     cursor: crosshair;
 }
 .info-on-about-us{
+    display: flex;
     font-size: medium;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     border: 5px 5px 5px 5px;
+    justify-content: space-evenly;
+    margin-top: 10px;
 }
 .shop-with-us{
-    justify-content: space-evenly;
     display: flex;
+    justify-content: space-evenly;
     margin: 10px 2px;
     background-color: chocolate;
 }
